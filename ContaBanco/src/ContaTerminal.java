@@ -8,6 +8,7 @@
  * @since 07/05/2023
  */
 import java.util.Scanner;
+import java.util.Locale;
 public class ContaTerminal {
 	/**
 	 * Programa vai solicitar nome String, numeroConta int, agencia String
@@ -19,7 +20,7 @@ public class ContaTerminal {
 		String agencia;
 		String nomeCliente;
 		double saldo;
-		Scanner stringInput = new Scanner(System.in);
+		Scanner stringInput = new Scanner(System.in).useLocale(Locale.of("br"));
 		Scanner numericInput = new Scanner(System.in);
 		
 		System.out.println("Por favor, Insira seu nome: ");
