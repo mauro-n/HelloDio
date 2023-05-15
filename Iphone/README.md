@@ -1,13 +1,22 @@
 #### POO - Desafio
-## Modelagem e diagramaÁ„o da representaÁ„o em UML e CÛdigo no que se refere ao componente iPhone.
+## Modelagem e diagrama√ß√£o da representa√ß√£o em UML e C√≥digo no que se refere ao componente iPhone.
 
-Com base no vÌdeo de lanÁamento do iPhone de 2007 (Youtube), elabore em uma ferramenta de UML de sua
-preferÍncia a diagramaÁ„o das classes e interfaces com a proposta de representar os papÈis do iPhone
-de: Reprodutor Musicial, Aparelho TelefÙnico e Navegador na Internet
+Com base no v√≠deo de lan√ßamento do iPhone de 2007 (Youtube), elabore em uma ferramenta de UML de sua
+prefer√™ncia a diagrama√ß√£o das classes e interfaces com a proposta de representar os pap√©is do iPhone
+de: Reprodutor Musicial, Aparelho Telef√¥nico e Navegador na Internet
 Em seguida crie as classes e interfaces no formato de arquivos .java
 
-Minutos relevantes do 00:15 atÈ 00:55
+Minutos relevantes do 00:15 at√© 00:55
 Comportamentos esperados:
-Repodutor Musicial: tocar, pausar, selecionarMusica
-Aparelho TelefÙnico: ligar, atender, iniciarCorrerioVoz
-Navegador na Internet: exibirPagina, adicionarNovaAba, atualizarPagina
+- Repodutor Musicial: tocar, pausar, selecionarMusica
+- Aparelho Telef√¥nico: ligar, atender, iniciarCorrerioVoz
+- Navegador na Internet: exibirPagina, adicionarNovaAba, atualizarPagina
+
+## Sobre o desenvolvimento:
+  O projeto introduz o conceito de interfaces em Java, um conceito que me permitiu
+  implementar multiplas funcionalidades de v√°rios elementos para auxiliar a cria√ß√£o de uma
+  s√≥ classe.<br/>
+  Dividi o projeto em pacotes para organiza√ß√£o e encapsulamento do c√≥digo e instaciei no arquivo
+  principal a chamada de tr√™s m√©todos para demonstrar o uso.<br/>
+  üì±
+  
