@@ -4,6 +4,11 @@ Desafio: Considerando nosso conhecimento no domínio bancário, iremos abstrair um
 Para isso, vamos interpretar o seguinte cenário: “Um banco oferece aos seus clientes dois tipos de contas (corrente e poupança)<br/>
 as quais possuem as funcionalidades de depósito, saque e transferência (entre contas da própria instituição).”
 
+### Implementações extras:
+- Adicionei uma classe *Comprovantes*, toda operação realizada pelas contas gera um comprovante, que é armazenado no Banco e pode ser gerado um relatório das operações com Banco.getComprovantes();
+- Adicionei funcionalidades para mostrar todos os clientes, todas as contas, o total de contas, usei classes enumeradas para padronização de itens;
+- O projeto toca todos os pilares da programação orientada a objetos.
+
 ## Abstração
 Habilidade de concentrar-se nos aspectos essenciais de um domínio, ignorando características menos importantes ou acidentais. Nesse contexto, objetos são abstrações de entidades existentes no domínio em questão.
 
@@ -16,8 +21,3 @@ Permite que você defina uma classe filha que reutiliza (herda), estende ou modif
 ## Polimorfismo
 Capacidade de um objeto poder ser referenciado de várias formas, ou seja, é capacidade de tratar objetos criados a partir das classes específicas como objetos de uma classe genérica.<br/>
 Cuidado, polimorfismo não quer dizer que o objeto fica se transformando, muito pelo contrário, um objeto nasce de um tipo e morre daquele tipo, o que pode mudar é a maneira como nos referimos a ele.
-
-### Implementações extras:
-- Adicionei uma classe *Comprovantes*, toda operação realizada pelas contas gera um comprovante, que é armazenado no Banco e pode ser gerado um relatório das operações com Banco.getComprovantes();
-- Adicionei funcionalidades para mostrar todos os clientes, todas as contas, o total de contas, usei classes enumeradas para padronização de itens;
-- O projeto toca todos os pilares da programação orientada a objetos.
